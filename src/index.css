@@ -1,0 +1,70 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-surface-900 text-gray-100 font-sans;
+  }
+}
+
+@layer components {
+  .chat-message {
+    @apply animate-fade-in;
+  }
+  
+  .typing-indicator {
+    @apply flex space-x-1;
+  }
+  
+  .typing-dot {
+    @apply w-2 h-2 bg-accent-500 rounded-full animate-typing;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent;
+  }
+  
+  .glass-morphism {
+    @apply bg-white/5 backdrop-blur-sm border border-white/10;
+  }
+}
+
+/* Toast customizations */
+.Toastify__toast-container {
+  @apply top-20 right-4;
+}
+
+.Toastify__toast {
+  @apply bg-surface-800 text-gray-100 border border-surface-700 shadow-xl;
+  min-height: 48px;
+  border-radius: 8px;
+}
+
+.Toastify__toast--success {
+  @apply border-green-500/30;
+}
+
+.Toastify__toast--error {
+  @apply border-red-500/30;
+}
+
+.Toastify__toast--warning {
+  @apply border-yellow-500/30;
+}
+
+.Toastify__toast--info {
+  @apply border-blue-500/30;
+}
+
+.Toastify__progress-bar {
+  @apply bg-gradient-to-r from-primary-500 to-secondary-500;
+}
+
+.Toastify__close-button {
+  @apply text-gray-400 hover:text-gray-200;
+}

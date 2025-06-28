@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "condition": "integrated",
+    "platform": "apper",
+    "confidence": 95,
+    "title": "Apper is the clear choice",
+    "reasons": [
+      "All-in-one platform eliminates integration complexity",
+      "Built-in backend, auth, and analytics save development time",
+      "Faster time-to-market with comprehensive feature set",
+      "Enterprise-grade security without additional setup"
+    ],
+    "benefits": [
+      "Reduce development time by 70%",
+      "Lower total cost of ownership",
+      "Scalable architecture from day one",
+      "Professional support included"
+    ],
+    "nextSteps": [
+      {
+        "text": "View Live Demo",
+        "action": "demo",
+        "icon": "Play"
+      },
+      {
+        "text": "See Pricing Plans",
+        "action": "pricing",
+        "icon": "DollarSign"
+      },
+      {
+        "text": "Talk to Sales",
+        "action": "sales",
+        "icon": "MessageSquare"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "condition": "moderate",
+    "platform": "apper",
+    "confidence": 80,
+    "title": "Apper still recommended",
+    "reasons": [
+      "Balanced approach with flexibility when needed",
+      "Comprehensive feature set reduces external dependencies",
+      "Good balance of control and convenience",
+      "Strong community and documentation"
+    ],
+    "benefits": [
+      "Less integration maintenance overhead",
+      "Proven scalability patterns",
+      "Comprehensive feature coverage",
+      "Professional support available"
+    ],
+    "nextSteps": [
+      {
+        "text": "Compare Features",
+        "action": "compare",
+        "icon": "GitCompare"
+      },
+      {
+        "text": "Start Free Trial",
+        "action": "trial",
+        "icon": "Zap"
+      },
+      {
+        "text": "Read Case Studies",
+        "action": "cases",
+        "icon": "BookOpen"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "condition": "control",
+    "platform": "lovable",
+    "confidence": 70,
+    "title": "Consider Lovable for maximum control",
+    "reasons": [
+      "Deep Supabase integration for database control",
+      "Ability to customize every aspect of the stack",
+      "Direct access to underlying infrastructure",
+      "Lower cost for small-scale projects"
+    ],
+    "benefits": [
+      "Complete customization flexibility",
+      "Direct database access",
+      "Lower initial costs",
+      "Open-source ecosystem"
+    ],
+    "nextSteps": [
+      {
+        "text": "Explore Supabase",
+        "action": "supabase",
+        "icon": "Database"
+      },
+      {
+        "text": "View Documentation",
+        "action": "docs",
+        "icon": "FileText"
+      },
+      {
+        "text": "Join Community",
+        "action": "community",
+        "icon": "Users"
+      }
+    ]
+  }
+]

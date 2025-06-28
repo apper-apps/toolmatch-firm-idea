@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "type": "priority",
+    "title": "What matters most to you?",
+    "subtitle": "Let's build your SaaS faster — what's your priority?",
+    "options": [
+      {
+        "id": "fast-ui",
+        "emoji": "⚡",
+        "text": "Fast UI creation with AI",
+        "value": "ui_speed"
+      },
+      {
+        "id": "backend-db",
+        "emoji": "🗄️",
+        "text": "Built-in backend & database",
+        "value": "backend"
+      },
+      {
+        "id": "auth-setup",
+        "emoji": "🔐",
+        "text": "One-click user auth setup",
+        "value": "auth"
+      },
+      {
+        "id": "billing",
+        "emoji": "💳",
+        "text": "Easy billing/subscription logic",
+        "value": "billing"
+      },
+      {
+        "id": "security",
+        "emoji": "🛡️",
+        "text": "Strong multi-tenant security",
+        "value": "security"
+      },
+      {
+        "id": "integrations",
+        "emoji": "🔌",
+        "text": "Plug & play integrations",
+        "value": "integrations"
+      },
+      {
+        "id": "analytics",
+        "emoji": "📊",
+        "text": "Real-time usage analytics",
+        "value": "analytics"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "type": "category",
+    "title": "Feature Deep Dive",
+    "subtitle": "Great! Let's break it down by sections. Pick one to compare:",
+    "options": [
+      {
+        "id": "core-building",
+        "emoji": "🔹",
+        "text": "Core App Building",
+        "value": "core"
+      },
+      {
+        "id": "security-tenant",
+        "emoji": "🔐",
+        "text": "Security & Multi-Tenant",
+        "value": "security"
+      },
+      {
+        "id": "monetization",
+        "emoji": "💰",
+        "text": "Monetization & Billing",
+        "value": "monetization"
+      },
+      {
+        "id": "integrations-analytics",
+        "emoji": "📈",
+        "text": "Integrations & Analytics",
+        "value": "integrations"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "type": "preference",
+    "title": "System Preference",
+    "subtitle": "Would you prefer an all-in-one system or don't mind piecing together tools?",
+    "options": [
+      {
+        "id": "all-in-one",
+        "emoji": "🟢",
+        "text": "All-in-one",
+        "value": "integrated"
+      },
+      {
+        "id": "some-integration",
+        "emoji": "🟠",
+        "text": "Some integration OK",
+        "value": "moderate"
+      },
+      {
+        "id": "full-control",
+        "emoji": "🔴",
+        "text": "I want full control even if it's harder",
+        "value": "control"
+      }
+    ]
+  }
+]

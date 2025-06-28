@@ -1,0 +1,198 @@
+[
+  {
+    "Id": 1,
+    "category": "core",
+    "title": "Core App Building",
+    "features": [
+      {
+        "name": "AI UI Generation",
+        "apper": {
+          "status": "supported",
+          "icon": "check",
+          "description": "Advanced AI-powered UI generation"
+        },
+        "lovable": {
+          "status": "supported",
+          "icon": "check",
+          "description": "AI-assisted UI creation"
+        },
+        "winner": "tie"
+      },
+      {
+        "name": "Backend & Database",
+        "apper": {
+          "status": "builtin",
+          "icon": "check",
+          "description": "Built-in backend with managed database"
+        },
+        "lovable": {
+          "status": "external",
+          "icon": "warning",
+          "description": "Requires Supabase integration"
+        },
+        "winner": "apper"
+      },
+      {
+        "name": "User Authentication",
+        "apper": {
+          "status": "oneclick",
+          "icon": "check",
+          "description": "One-click auth setup"
+        },
+        "lovable": {
+          "status": "manual",
+          "icon": "warning",
+          "description": "30+ manual setup steps"
+        },
+        "winner": "apper"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "category": "security",
+    "title": "Security & Multi-Tenant",
+    "features": [
+      {
+        "name": "Data Isolation",
+        "apper": {
+          "status": "automatic",
+          "icon": "check",
+          "description": "Automatic data isolation & pooled resources"
+        },
+        "lovable": {
+          "status": "manual",
+          "icon": "cross",
+          "description": "Manual setup with shared resources"
+        },
+        "winner": "apper"
+      },
+      {
+        "name": "Security Controls",
+        "apper": {
+          "status": "enterprise",
+          "icon": "check",
+          "description": "Enterprise-grade security controls"
+        },
+        "lovable": {
+          "status": "basic",
+          "icon": "warning",
+          "description": "Basic security features"
+        },
+        "winner": "apper"
+      },
+      {
+        "name": "Compliance",
+        "apper": {
+          "status": "certified",
+          "icon": "check",
+          "description": "SOC2, GDPR, HIPAA ready"
+        },
+        "lovable": {
+          "status": "partial",
+          "icon": "warning",
+          "description": "Limited compliance features"
+        },
+        "winner": "apper"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "category": "monetization",
+    "title": "Monetization & Billing",
+    "features": [
+      {
+        "name": "Subscription Management",
+        "apper": {
+          "status": "visual",
+          "icon": "check",
+          "description": "Visual subscription tools & management"
+        },
+        "lovable": {
+          "status": "manual",
+          "icon": "warning",
+          "description": "Manual Stripe setup + edge functions"
+        },
+        "winner": "apper"
+      },
+      {
+        "name": "Payment Processing",
+        "apper": {
+          "status": "integrated",
+          "icon": "check",
+          "description": "Integrated payment processing"
+        },
+        "lovable": {
+          "status": "external",
+          "icon": "warning",
+          "description": "External payment gateway setup"
+        },
+        "winner": "apper"
+      },
+      {
+        "name": "Revenue Analytics",
+        "apper": {
+          "status": "builtin",
+          "icon": "check",
+          "description": "Built-in revenue tracking & analytics"
+        },
+        "lovable": {
+          "status": "limited",
+          "icon": "cross",
+          "description": "Limited revenue insights"
+        },
+        "winner": "apper"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "category": "integrations",
+    "title": "Integrations & Analytics",
+    "features": [
+      {
+        "name": "Available Integrations",
+        "apper": {
+          "status": "extensive",
+          "icon": "check",
+          "description": "1,300+ integrations with 1-click setup"
+        },
+        "lovable": {
+          "status": "limited",
+          "icon": "warning",
+          "description": "~12 integration options"
+        },
+        "winner": "apper"
+      },
+      {
+        "name": "Usage Analytics",
+        "apper": {
+          "status": "comprehensive",
+          "icon": "check",
+          "description": "Built-in comprehensive analytics"
+        },
+        "lovable": {
+          "status": "external",
+          "icon": "cross",
+          "description": "External BI tools needed"
+        },
+        "winner": "apper"
+      },
+      {
+        "name": "API Access",
+        "apper": {
+          "status": "full",
+          "icon": "check",
+          "description": "Full API access & webhooks"
+        },
+        "lovable": {
+          "status": "limited",
+          "icon": "warning",
+          "description": "Limited API functionality"
+        },
+        "winner": "apper"
+      }
+    ]
+  }
+]
